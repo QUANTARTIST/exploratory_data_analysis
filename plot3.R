@@ -7,7 +7,7 @@ setwd("C/project4/exploratory_data_analysis")
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 
-## Step 2: subset our data
+## Subset data
 
 subsetNEI  <- NEI[NEI$fips=="24510", ]
 
